@@ -23,7 +23,8 @@ body{
 	background: url(https://source.unsplash.com/-1h4WjV_OY4);
 	background-size: cover;
 	background-position: center;
-	font-family: 'Spectral', serif;
+	/*font-family: 'Spectral', serif;*/
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	color:#0075AB;
 }
 
