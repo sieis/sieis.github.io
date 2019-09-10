@@ -23,10 +23,14 @@ body{
 	background: url(https://source.unsplash.com/WmnsGyaFnCQ);
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 	/*font-family: 'Spectral', serif;*/
 	font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	/*font-family: 'Inter', sans-serif;*/
 	color:#4A4A4A;
 }
+
+
 
 h1{
 	font-weight: 700;
