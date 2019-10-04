@@ -18,19 +18,23 @@ html{
 				 0px 18px 17px rgba(0,0,0,0.1);*/
 }
 
-body{
+/* body{ */
 	/*background: url(https://source.unsplash.com/onLbXleIkds);*/
-	background: url(https://source.unsplash.com/WmnsGyaFnCQ);
+	/* background: url(https://source.unsplash.com/WmnsGyaFnCQ);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	/*font-family: 'Spectral', serif;*/
 	font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	/*font-family: 'Inter', sans-serif;*/
 	color:#4A4A4A;
+} */
+
+body{
+	background-color: #21D4FD;
+	background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+	background-attachment: fixed;
+	font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
-
-
 
 h1{
 	font-weight: 700;
