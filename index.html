@@ -1,75 +1,64 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Undertow Network</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="sieis.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Spectral:400,600" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pattern.css">
+    <!-- FontAwesome CSS for 5.0.7 (couldn't easily find this on their site, but linked through a github???) -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" class="rel"> -->
+    <!-- Apparently they operate with kits now. So I signed in and created a kit which generated a link specific to me below. It's a script so I put it at the bottom-->
+    <link rel="stylesheet" href="sieis.css" class="rel">
+    
+    <title>Title Here!</title>
+  </head>
+  <body>
+    <!-- I hope you'll excuse the mess as I develop my skills over the coming weeks
+    I pulled the plug on my Squarespace site so as to motivate myself
+    to learn actual coding skills faster. The site should morph and grow over time-->
+      <div class="div container justify-content-center align-items-center">
+        <br>
+          <h1>undertow creative</h1>
+          <h2>a podcast network</h2>
+          <p>This is the new home of eamonn cottrell's 
+            podcasts and musings. It will also serve as an adventure playground
+            as he learns web development. More will be revealed. Check back often.
+          </p>
+        <br>
+        <br>
+            <a class = "display-4" target= "_blank" href="https://sieis.transistor.fm/">Sieis Soundtracks</a>
+            <h2>(ephemeral soundscapes)</h2>
+            <hr>
+            <br>
+            <iframe src='https://share.transistor.fm/e/sieis/latest/' width='100%' height='180' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:180px;'></iframe>
+            <br>
+            <a class = "display-4" target= "_blank" href="https://fna.transistor.fm/">the fna show</a>
+            <h2>(an experiment in sound and idea)</h2>
+            <hr>
+            <br>
+            <iframe src='https://share.transistor.fm/e/fna/latest/dark' width='100%' height='180' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:180px;'></iframe>
+            <br>
+            <a class = "display-4" target= "_blank" href="https://swansong.transistor.fm/">Swansong</a>
+            <h2>(an adventure story)</h2>
+            <hr>
+            <br>
+            <iframe src='https://share.transistor.fm/e/swansong/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>
+            <br>
 
-<nav class="navbar navbar-default">
-  <div id="navcolor" class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">UC</a>
-    </div>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>    
-        <li><a href="https://sieis.transistor.fm">SIEIS</a></li>
-	      <li><a href="https://fna.transistor.fm">FNA</a></li>
-        <li><a href="https://swansong.transistor.fm/">SWANSONG</a></li>
-      </ul>
+    <hr>
 
-	<!-- Commented out this bit on the right for SIGNUP and LOGIN -->
-	    
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="mailto:eamonncottrell@gmail.com"></i>CONTACT</a></li>
-        <!--<li><a href="#"><i class="fas fa-user"></i> Login</a></li>-->
-        
-      </ul>
-	    
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
-			<div id="main">
-				<h1>UNDERTOW CREATIVE</h1>
-				<h3>Crucify Complacency</h3>
-				<!--Potentially embedding the Transistor.fm player -->
-				
-<iframe src='https://share.transistor.fm/e/sieis/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>
-<iframe src='https://share.transistor.fm/e/fna/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>
-<iframe src='https://share.transistor.fm/e/swansong/playlist' width='100%' height='390' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:390px;'></iframe>				
-				<hr>
-				
-				<!--<button class="btn btn-default btn-lg"><i class="fas fa-coffee"></i> Signup</button>-->
-			</div>
-		</div>
-	</div>
-</div>
-
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="sieis.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3aeebcae77.js"></script>
+  </body>
 </html>
