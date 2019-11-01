@@ -22,8 +22,8 @@ body{
 	background-image: linear-gradient(19deg, #21D4FD 0%, rgb(50, 47, 226) 100%);
 	background-attachment: fixed;
     font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    text-align: center;
-    color:white;
+    /* text-align: center; */
+    color: #222222;
 }
 
 a{
@@ -39,3 +39,8 @@ h1{
 	color: #0075AB;
 }
 
+.jumbotron{
+    /* background:rgb(50, 47, 226); */
+    background-image: linear-gradient(-19deg, #21D4FD 0%, rgb(50, 47, 226) 100%);
+    color: white;
+}
