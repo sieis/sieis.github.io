@@ -44,3 +44,17 @@ h1{
     background-image: linear-gradient(-19deg, #21D4FD 0%, rgb(50, 47, 226) 100%);
     color: white;
 }
+
+.navbar{
+    color:#21D4F;
+    border-radius: 5px;
+}
+
+#mc_embed_signup{
+    /* background: #21D4FD; */
+    background-image: linear-gradient(-19deg, #21D4FD 0%, rgb(50, 47, 226) 100%);
+    color: white;
+    border-radius: 5px;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+}
