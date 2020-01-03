@@ -8,14 +8,18 @@ hr {
 html{
 	height: 100%;
 }
-
+.grit{
+    font-family: 'Nunito Sans', sans-serif;
+}
 #main{
 	text-align: center;
 	padding-top:15%;
     color:whitesmoke;
 }
 
-
+#b{
+    font-size: 1.5em;
+}
 
 body{
 	background-color: #21D4FD;
