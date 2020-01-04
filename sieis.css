@@ -17,7 +17,7 @@ html{
     color:whitesmoke;
 }
 
-#b{
+.b{
     font-size: 1.5em;
 }
 
@@ -36,7 +36,7 @@ a{
 
 h1{
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 3em;
 }
 
 .btn-default{
@@ -50,7 +50,7 @@ h1{
 }
 
 .navbar{
-    color:#21D4F;
+    color: #221D4F;
     border-radius: 5px;
 }
 
