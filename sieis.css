@@ -24,6 +24,7 @@ html{
 body{
     /* text-align: center; */
     color: #6c757d;
+    /* font-family: proxima-nova, sans-serif; */
 }
 
 h1{
@@ -43,7 +44,8 @@ input{
 
 
 .new-title{
-    color: #6c757d;
+    /* color: #6c757d; */
+    color: #0acf97;
     text-decoration: none;
 }
 
@@ -65,9 +67,6 @@ input{
 .card-subtitle{
     font-weight: 400;
     color: #6c757d !important;
-}
-#embed-player{
-    border: none;
 }
 
 .coffee{
@@ -96,3 +95,9 @@ input{
     border-left: none!important;
     border-top: none!important;
 }
+
+#embed-player{
+    box-shadow: none!important;
+    color: red!important;
+}
+
